@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="keyword" content="html, css, javascript">
+    <meta name="description" content="Blinto LLC Assiggnment Task">
+    <meta name="author" content="Athika Chowdhury Priya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Slothui</title>
+    <!-- favicon -->
+    <link rel="icon" href="">
+    <!-- google gont  -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive stylesheet -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- header starts here -->
+    <header>
+        <!-- nav starts here -->
+         <nav class="container flexbox">
+            <div class="flexbox nav-contents">
+                <!-- logo -->
+                <div class="logo-container flexbox">
+                    <a href="index.html" class="logo inline-block flexbox ">
+                        <img src="assets/images/logo.jpg" alt="Logo" class="inline-block">
+                    </a>
+                </div>
+                <div class="flexbox nav-items">
+                    <!-- nav menu -->
+                    <ul class="nav-menu flexbox">
+                        <li class="nav-list inline-block">
+                            <a href="#feature-section" class="nav-link  inline-block ">Features</a>
+                        </li>
+                        <li class="nav-list inline-block">
+                            <a href="#statistics-section" class="nav-link  inline-block ">Achievements</a>
+                        </li>
+                        <li class="nav-list inline-block">
+                            <a href="#testimonial-section" class="nav-link inline-block  ">Testimonials</a>
+                        </li>
+                        <li class="nav-list inline-block">
+                            <a href="#faq-section" class="nav-link inline-block ">FAQ</a>
+                        </li>
+                    </ul>
+                    <!-- user access starts here -->
+                    <div class="user-access flexbox">
+                        <button class="btn">Sign Up</button>
+                        <button class="btn">Log in</button>
+                    </div>
+                </div>
+                <!-- nav toggle -->
+                <div class="nav-icon flexbox" id="nav-toggle">
+                    <img src="assets/images/toggle icon.jpg" alt="Toggle"  onclick="toggleMenu()" class="inline-block">
+                </div>
+
+
+                <div id="offcanvas" class="offcanvas">
+                    <div class="offcanvas-header">
+                        <button id="closeOffcanvas">&times;</button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav-menu flexbox">
+                            <li class="nav-list">
+                                <a href="#feature-section" class="nav-link">Features</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#statistics-section" class="nav-link">Achievements</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#testimonial-section" class="nav-link">Testimonials</a>
+                            </li>
+                            <li class="nav-list">
+                                <a href="#faq-section" class="nav-link">FAQ</a>
+                            </li>
+                        </ul>
+
+                        <!-- user access starts here -->
+                        <div class="user-access flexbox">
+                            <button class="btn">Sign Up</button>
+                            <button class="btn">Log in</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+         </nav>
+        <!-- nav ends here -->
+    </header>
+    <!-- header ends here -->
+
+
+    <!-- main starts here -->
+    <main>
+
+        <!-- hero section starts here -->
+         <section id="hero-section" class="section-padding">
+            <div class="container">
+                <!-- hero main contents -->
+                <div class="section__text-contents  text-center ">
+                    <span class="heading-secondary text-margin ">Design System For Gen Z</span>
+                    <h1 class="main-heading text-margin">Unleash Your Inner Design Sloth Today.</h1>
+                    <p class="description">Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Cras fermentum odio eu feugiat pretium nibh ipsum. Venenatis cras sed felis eget velit aliquet.</p>
+                    <ul class="flexbox">
+                        <li class="inline-block">
+                            <a href="#" class="inline-block">
+                                <img src="assets/images/Button App Store.jpg" alt="App Store" class="inline-block">
+                            </a>
+                        </li>
+                        <li class="inline-block">
+                            <a href="#" class="inline-block">
+                                <img src="assets/images/google play.jpg" alt="Google Play" class="inline-block">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- hero images -->
+                <div class="hero-images ">
+                    <img src="assets/images/Desktop-min 1.jpg" alt="Desktop graph" class="desktop-graph  inline-block ">
+                    <img src="assets/images/MockUp.jpg" alt="" class="inline-block mobile-graph">
+                </div>
+                
+            </div>
+         </section>
+        <!-- hero section ends here -->
+
+
+        <!-- special Proof section starts here -->
+        <section id="special__proof-section">
+            <div class="container">
+                <div class="logo-slider">
+                    <div class="logo-overflow flexbox">
+                        <div class="logo-wrapper flexbox">
+                            <div class="logo-item">
+                                <img src="assets/images/Delta Logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/Boeing logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/Boeing logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/spaceX logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/IBM logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/walmart logo.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="logo-wrapper flexbox">
+                            <div class="logo-item">
+                                <img src="assets/images/Delta Logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/Boeing logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/Boeing logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/spaceX logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/IBM logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/walmart logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--  -->
+                    <div class="logo-overflow flexbox reverse">
+                        <div class="logo-wrapper flexbox">
+                            <div class="logo-item">
+                                <img src="assets/images/Uber logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/google logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/samsung logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/pepsi logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/addidas logo.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="logo-wrapper flexbox">
+                            <div class="logo-item">
+                                <img src="assets/images/Uber logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/google logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/samsung logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/pepsi logo.jpg" alt="">
+                            </div>
+                            <div class="logo-item">
+                                <img src="assets/images/addidas logo.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  special proof section ends here -->
+
+        <!-- feature section starts here -->
+        <section id="feature-section" class="section-padding">
+            <div class="section__text-contents text-center">
+                <span class="heading-secondary text-margin">Our Main Features</span>
+                <h2 class="heading-primary text-margin">Our Primary Features</h3>
+                <p class="description">Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam non nisi. Nisi porta lorem mollis aliquam ut porttitor leo.</p>
+            </div>
+
+            <div class="features flexbox content-top">
+                <!-- feature 1 -->
+                <div class="feature flex-container">
+                    <i class="fa-solid fa-bolt text-margin "></i>
+                    <h3 class="heading-tertiary text-margin">Lazy Efficient</h4>
+                    <p class="description">A cras semper auctor neque. Proin libero nunc consequat interdum varius sit. Libero volutpat sed cras ornare arcu dui vivamus arcu felis.</p>
+                </div>
+                <!-- feature 2 -->
+                <div class="feature flex-container">
+                    <i class="fa-solid fa-gear text-margin "></i>
+                    <h3 class="heading-tertiary text-margin">Streamlined Process</h4>
+                    <p class="description">Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci porta non pulvinar neque laoreet.</p>
+                </div>
+                <!-- feature 3 -->
+                <div class="feature flex-container">
+                    <i class="fa-solid fa-broom text-margin "></i>
+                    <h3 class="heading-tertiary text-margin">Minimum Effort</h4>
+                    <p class="description">Tincidunt eget nullam non nisi est sit amet facilisis magna. Rhoncus dolor purus non enim praesent elementum.</p>
+                </div>
+                <!-- feature 4 -->
+                <div class="feature flex-container">
+                    <i class="fa-solid fa-chart-line text-margin "></i>
+                    <h3 class="heading-tertiary text-margin">Absolutely Easy To Use</h4>
+                    <p class="description">Rutrum quisque non tellus orci ac. Purus viverra accumsan in nisl. Id interdum velit laoreet id donec ultrices adisipicing elit.</p>
+                </div>
+                <!-- feature 5 -->
+                <div class="feature flex-container">
+                    <i class="fa-solid fa-bowl-food text-margin "></i>
+                    <h3 class="heading-tertiary text-margin">Just Sleep & Chill</h4>
+                    <p class="description">Bibendum est ultricies integer quis auctor elit. Ultrices in iaculis nunc sed. A scelerisque purus semper eget. Facilisi morbi tempus iaculi.</p>
+                </div>
+                <!-- feature 6 -->
+                <div class="feature flex-container">
+                    <i class="fa-solid fa-face-smile-wink text-margin"></i>
+                    <h3 class="heading-tertiary text-margin">Don’t Worry About Life</h4>
+                    <p class="description">Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Risus ultricies tristique nulla aliquet enim tortor.</p>
+                </div>
+            </div>
+        </section>
+        <!-- feature section ends here -->
+
+        <!-- statistics section starts here -->
+        <section id="statistics-section" class="section-padding">
+            <div class="container">
+                <div class="section__text-contents text-center">
+                    <span class="heading-secondary inline-block text-center text-margin">
+                        <i class="fa-solid fa-house inline-block"></i>
+                    </span>
+                    <h3 class="heading-primary text-margin">Work lazily and  achieve the result you want.</h3>
+                    <p class="description">Liquam id diam maecenas ultricies mi eget mauris pharetra et. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Fermentum iaculis eu non diam.</p>
+                </div>
+
+                <div class="achievements content-top flexbox">
+
+                    <div class="text-center">
+                        <h4>420%</h4>
+                        <p class="description">Data Efficiency</p>
+                    </div>
+
+                    <div class="text-center">
+                        <h4>708+</h4>
+                        <p class="description">Conversion Rate</p>
+                    </div>
+
+                    <div class="text-center">
+                        <h4>1.82M</h4>
+                        <p class="description">AI LLM Scale</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- statistics section ends here -->
+
+
+        <!-- expertice-section starts here -->
+        <section id="expertice-section" class="section-padding">
+            <div class="expertice-header">
+                <span class="heading-secondary text-margin">Who is it for?</span>
+                <h3 class="heading-primary text-margin">What the procrastinators say</h3>
+                <p class="description">Mi ipsum faucibus vitae aliquet nec. At tempor commodo ullamcorper a lacus. Bibendum at varius vel pharetra vel.</p>
+            </div>
+            <!-- expertice tabs -->
+             <div class="expertice-tabs flexbox content-top">
+                <div class="tab-buttons">
+                    <!-- tab button 1 -->
+                    <div class="tab-button active">
+                        <div>
+                            <button class="heading-tertiary ">Convallis tellus id interdum velit</button>
+                            <p class="description">Est pellentesque elit ullamcorper dignissim cras. In pellentesque massa placerat duis ultricies.</p>
+                        </div>
+                    </div>
+
+                     <!-- tab button 2 -->
+                     <div class="tab-button">
+                        <div>
+                            <button class="heading-tertiary ">Id interdum velit laoreet id donec ultrices</button>
+                            <p class="description">Donec massa sapien faucibus et molestie ac feugiat sed. Congue mauris rhoncus aenean vel elit scelerisque.</p>
+                        </div>
+                    </div>
+
+                     <!-- tab button 3 -->
+                     <div class="tab-button">
+                       <div>
+                            <button class="heading-tertiary ">Sapien et ligula ullamcorper malesuada</button>
+                            <p class="description">Donec massa sapien faucibus et molestie ac feugiat sed. Congue mauris rhoncus aenean vel elit scelerisque.</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="tab-images">
+                    <div class="tab-background">
+                        <div class="tab-img">
+                            <div>
+                                <img src="assets/images/tab 1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="tab-img">
+                            <div>
+                                <img src="assets/images/tab 2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <!-- expertice-section  end here -->
+
+
+        <!-- testimonials section starts here -->
+         <section id="testimonial-section" class="section-padding">
+            <div class="text-center">
+                <span class="heading-secondary text-margin">Testimonials</span>
+                <h3 class="heading-primary text-margin">What People Say</h3>
+                <p class="description">You can visit our office anytime but please don’t stalk us or don’t be creepy.</p>
+            </div>
+            <div class="content-top">
+                <div class="testimonials flexbox">
+                    <!-- testimonial 1 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin">Lorem ipsum dolor sit amet, consectetur ad-zzz-ing elit. Proin vel urna at metus tempor mattis, or not, whatever.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-1.png" alt="avatar">
+                            <div>
+                                <h4>X_AE_A-13</h4>
+                                <p class="description">Product Designer, slothUI</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 2 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin">Posuere urna nec tincidunt praesent semper feugiat nibh sed. Velit dignissim sodales ut eu.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-2.png" alt="avatar">
+                            <div>
+                                <h4>Azunyan U. Wu</h4>
+                                <p class="description">CEO, nextlife.ai</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 3 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin">Sit amet est placerat in. Blandit cursus risus at ultrices mi tempus imperdiet. Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam non nisi. </p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-3.png" alt="avatar">
+                            <div>
+                                <h4>Mechatronics Yi</h4>
+                                <p class="description">CTO, fin4win.ai</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 4 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin">Nisi porta lorem mollis aliquam ut porttitor leo. Sed odio morbi quis commodo. Arcu non odio euismod lacinia at quis. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-4.png" alt="avatar">
+                            <div>
+                                <h4>Oarack Babama</h4>
+                                <p class="description">Former President of US</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 5 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                        </ul>
+                        <p class="description text-margin">Accumsan tortor posuere ac ut consequat. Quis varius quam quisque id diam vel. Commodo odio aenean sed adipiscing diam donec adipiscing. Vel pharetra vel turpis nunc eget.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-5.png" alt="avatar">
+                            <div>
+                                <h4>Saylor Twift</h4>
+                                <p class="description">Famous Singer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 6 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin">Venenatis cras sed felis eget velit aliquet. Velit scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. Ultricies integer quis auctor elit sed vulputate mi. </p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-6.png" alt="avatar">
+                            <div>
+                                <h4>Asuna Yuuki</h4>
+                                <p class="description">Virtual Swordsman</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 7 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                            <li><i class="fa-regular fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin">Sagittis eu volutpat odio facilisis mauris sit amet massa. Urna et pharetra pharetra massa.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-7.png" alt="avatar">
+                            <div>
+                                <h4>Boe Jiden</h4>
+                                <p class="description">Former President Of Canada</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 8 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <p class="description text-margin"> Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Nec nam aliquam sem et tortor consequat id porta nibh. Viverra suspendisse. Lacus sed viverra tellus in hac habitasse platea dictumst. Elit at imperdiet dui accumsan.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-8.png" alt="avatar">
+                            <div>
+                                <h4>Vermillion D. Gray</h4>
+                                <p class="description">CEO, hacklife.ai</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- testimonial 9 -->
+                    <div class="testimonial flex-container">
+                        <ul class="flexbox text-margin">
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-regular fa-star-half-stroke"></i></li>
+                        </ul>
+                        <p class="description text-margin">Viverra accumsan in nisl nisi scelerisque eu. Vitae congue eu consequat ac felis donec.</p>
+                        <div class="person-label flexbox">
+                            <img src="assets/images/avatar-9.png" alt="avatar">
+                            <div>
+                                <h4>Zuckman Wu</h4>
+                                <p class="description">CEO, tech4life.ai</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="load-more" class="load-more-btn btn ">Load More + </button>
+         </section>
+        <!-- testimonials section end here -->
+
+
+        <!-- contact section starts here -->
+        <section id="contact-section" class="section-padding">
+            <div class="contact-heading">
+                <span class="heading-secondary text-margin ">Visit Us Anytime</span>
+                <h3 class="heading-primary text-margin ">Our Office</h3>
+                <p class="description">You can visit our office anytime but please don’t stalk us or don’t be creepy.</p>
+            </div>
+            <div class="content-top">
+                <div class="contact-details flexbox">
+                    <div class="contact">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4 class="">Japan</h4>
+                        <p>221b Banzai Street
+                            <span>Tokyo, TO  77812</span>
+                        </p>
+                    </div>
+
+                    <div class="contact">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4 class="">USA</h4>
+                        <p>221b Freedom Street
+                            <span>New York, NY 21231</span>
+                        </p>
+                    </div>
+
+                    <div class="contact">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4 class="">Canada</h4>
+                        <p>221b Maple Syrup Street
+                            <span>Ottawa, OW 77847</span>
+                        </p>
+                    </div>
+
+                    <div class="contact">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4 class="">South Korea</h4>
+                        <p>221b Samyang Street
+                            <span>Gangnam, GM 22124</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section ends here -->
+
+
+        <!-- faq section starts here -->
+        <section id="faq-section" class="section-padding">
+            <div class="container">
+                <div class="faq-header text-center">
+                    <sapn class="heading-secondary text-margin">FAQ</sapn>
+                    <h3 class="heading-primary text-margin">Frequently Asked Questions</h3>
+                    <p class="description">Fermentum iaculis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas fringilla phasellus. Donec ac odio tempor orci dapibus ultrices.</p>
+                </div>
+                <div class="faq-contents">
+                    <div class="content-top">
+                        <!-- question 1 -->
+                        <div class="question">
+                            <button>
+                                <div>
+                                    <i class="fa-solid fa-question"></i>
+                                    <span>Enim sed faucibus turpis in eu mi bibendum neque egestas?</span>
+                                </div>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+                            <p class="description">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+                        </div>
+
+                        <!-- question 2 -->
+                        <div class="question">
+                            <button>
+                                <div>
+                                    <i class="fa-solid fa-question"></i>
+                                    <span>Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</span>
+                                </div>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+                            <p class="description">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+                        </div>
+
+                        <!-- question 3 -->
+                        <div class="question">
+                            <button>
+                                <div>
+                                    <i class="fa-solid fa-question"></i>
+                                    <span>Elit pellentesque habitant morbi tristique senectus?</span>
+                                </div>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+                            <p class="description">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+                        </div>
+
+                        <!-- question 4 -->
+                        <div class="question">
+                            <button>
+                                <div>
+                                    <i class="fa-solid fa-question"></i>
+                                    <span>Gravida quis blandit turpis cursus in hac. Mi ipsum faucibus vitae aliquet nec?</span>
+                                </div>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+                            <p class="description">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+                        </div>
+
+                        <!-- question 5 -->
+                        <div class="question">
+                            <button>
+                                <div>
+                                    <i class="fa-solid fa-question"></i>
+                                    <span>Enim sed faucibus turpis in eu mi bibendum neque egestas?</span>
+                                </div>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
+                            </button>
+                            <p class="description">Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq section starts here -->
+
+
+        <!-- cta section  starts here -->
+        <section id="cta-section" >
+            <div class="cta flexbox">
+                <div class="cta-texts section-padding">
+                    <h3 class="heading-primary text-margin ">Let’s Download The App.</h3>
+                    <p class="description">Velit scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. Ultricies integer quis auctor elit sed vulputate mi. Massa id neque aliquam vestibulum morbi blandit cursus.</p>
+                    <div class="cta-btns flexbox content-top">
+                        <button class="btn">Learn More</button>
+                        <button class="btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="cta-images flexbox">
+                    <div class="cta-img">
+                        <img src="assets/images/mobile min-1.jpeg" alt="">
+                    </div>
+                    <div class="cta-img">
+                        <img src="assets/images/mobile min-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta section ends here -->
+        
+    </main>
+    <!-- main ends here -->
+
+
+    <!-- footer starts here -->
+    <footer class="section-padding">
+        <div class="footer-links flexbox ">
+            <!-- link group 1 -->
+            <div class="link-group">
+                <h4 class="">Site Map</h4>
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- link group 2 -->
+            <div class="link-group">
+                <h4 class="">Services</h4>
+                <ul>
+                    <li><a href="#">Services Lineup 1</a></li>
+                    <li><a href="#">Services Lineup 2</a></li>
+                    <li><a href="#">Services Lineup 3</a></li>
+                    <li><a href="#">Services Lineup 4</a></li>
+                    <li><a href="#">Services Lineup 5</a></li>
+                    <li><a href="#">Services Lineup 6</a></li>
+                </ul>
+            </div>
+
+            <!-- link group 3 -->
+            <div class="link-group">
+                <h4 class="">Product</h4>
+                <ul>
+                    <li><a href="#">Product Lineup 1</a></li>
+                    <li><a href="#">Product Lineup 2</a></li>
+                    <li><a href="#">Product Lineup 3</a></li>
+                    <li><a href="#">Product Lineup 4</a></li>
+                    <li><a href="#">Product Lineup 5</a></li>
+                    <li><a href="#">Product Lineup 6</a></li>
+                </ul>
+            </div>
+
+            <!-- link group 4 -->
+            <div class="link-group">
+                <h4 class="">Help & Support</h4>
+                <ul>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Email Support</a></li>
+                    <li><a href="#">Product Refund</a></li>
+                    <li><a href="#">Submit Feedback</a></li>
+                    <li><a href="#">Help Ticket</a></li>
+                    <li><a href="#">Call Center</a></li>
+                </ul>
+            </div>
+
+            <!-- link group 5 -->
+            <div class="link-group">
+                <h4 class="">Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">HIPAA Notice</a></li>
+                    <li><a href="#">Data Policy</a></li>
+                    <li><a href="#">AI Privacy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Lawyer’s Corner</a></li>
+                </ul>
+            </div>
+
+
+            <!-- link group 6 -->
+            <div class="link-group">
+                <h4 class="">Pricing</h4>
+                <ul>
+                    <li><a href="#">Pricing Tier 1</a></li>
+                    <li><a href="#">Pricing Tier 2</a></li>
+                    <li><a href="#">Pricing Tier 3</a></li>
+                    <li><a href="#">Pricing Tier 4</a></li>
+                    <li><a href="#">Pricing Tier 5</a></li>
+                    <li><a href="#">Pricing Tier 6</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contents flexbox">
+            <div >
+                <img src="assets/images/logo.jpg" alt="Logo">
+            </div>
+            <p class="description">Copyright 2028 slothUI, All Rights Reserved.</p>
+        </div>
+        <div class="top__to--bottom text-center flexbox">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+
+
+    
+
+    <!-- js -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
