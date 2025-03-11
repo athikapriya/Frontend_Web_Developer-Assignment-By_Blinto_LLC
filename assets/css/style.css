@@ -728,6 +728,10 @@ nav .user-access .btn:last-child::after{
     top: 0;
 }
 
+#statistics-section .fa-house{
+    color: var(--brand-color);
+}
+
 /* expertice ends here */
 
 
